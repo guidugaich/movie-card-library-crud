@@ -1,0 +1,33 @@
+.header {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+.library-title {
+  color: white;
+  margin: auto;
+}
+
+.add-movie {
+  background-color: #f1c860;
+  border-radius: 10px;
+  color: #1a242f;
+  margin-right: 0;
+  padding: 8px;
+  text-decoration: none;
+  transition: background-color 0.7s ease , color 0.7s ease;
+}
+
+.add-movie:hover {
+  background-color: #1a242f;
+  border: 1px solid white;
+  color: white;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}

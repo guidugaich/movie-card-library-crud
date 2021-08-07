@@ -1,0 +1,43 @@
+.movie-card {
+  align-items: center;
+  background-color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: space-between;
+  margin: 10px;
+  min-width: 250px;
+  text-align: center;
+  transition: border 0.5s , transform 0.5s;
+  width: 20%;
+}
+
+.movie-card:hover {
+  border: 3px solid gray;
+  transform: scale(1.06);
+}
+
+.movie-title {
+  color: #1a242f;
+}
+
+.movie-storyline {
+  color: #1a242f;
+  font-size: small;
+}
+
+.detail-link {
+  background-color: white;
+  border-radius: 5px;
+  color: #1a242f;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.detail-link:hover {
+  font-weight: 800;
+  transform: scale(1.2);
+}
